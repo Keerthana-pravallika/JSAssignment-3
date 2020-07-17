@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let num = Number(prompt("Enter your marks:"));
+        let grade;
+        if(num >= 90)
+            grade = 'A';
+        else if(num >= 80)
+            grade = 'B';
+        else if(num >= 70)
+            grade = 'C';
+        else if (num >= 60)
+            grade = 'D';
+        else if (num >=50)
+            grade = 'E';
+        else
+            grade = "Fail";
+
+        console.log(`Marks are ${num} and grade is ${grade}`);
+
+
+    </script>
+
+
+</body>
+</html>
